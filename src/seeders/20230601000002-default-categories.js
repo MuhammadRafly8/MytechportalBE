@@ -6,36 +6,50 @@ module.exports = {
     return queryInterface.bulkInsert('Categories', [
       {
         id: uuidv4(),
-        name: 'Nasional',
-        slug: 'nasional',
+        name: 'RPL',
+        slug: 'Rekayasa Perangkat Lunak',
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         id: uuidv4(),
-        name: 'Internasional',
-        slug: 'internasional',
+        name: 'DKV',
+        slug: 'Desain Komunikasi Visual',
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         id: uuidv4(),
-        name: 'Teknologi',
-        slug: 'teknologi',
+        name: 'TKJ',
+        slug: 'Teknik Komputer dan Jaringan',
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         id: uuidv4(),
-        name: 'Olahraga',
-        slug: 'olahraga',
+        name: 'TSM',
+        slug: 'Teknik Sepeda Motor',
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         id: uuidv4(),
-        name: 'Hiburan',
-        slug: 'hiburan',
+        name: 'TKR',
+        slug: 'Teknik Kendaraan Ringan',
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        id: uuidv4(),
+        name: 'APT',
+        slug: 'Agribisnis Perbenihan Tanaman',
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+       {
+        id: uuidv4(),
+        name: 'ATPH',
+        slug: 'Agribisnis Tanaman Pangan dan Hortikultura',
         createdAt: new Date(),
         updatedAt: new Date()
       }
